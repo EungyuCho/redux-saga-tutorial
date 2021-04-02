@@ -11,7 +11,7 @@ export function* incrementAsync() {
 }
 
 export function* decrementAsync() {
-  yield delay(1000);
+  yield call(delay, 1000);
   yield put({ type: "DECREMENT" });
 }
 
