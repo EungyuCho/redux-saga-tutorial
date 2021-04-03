@@ -15,6 +15,7 @@
   "author": "Yassine ELOUAFI <yelouafi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "babel-polyfill": "6.3.14",
     "json-server": "^0.16.3",
     "json-server-auth": "^2.0.2",
